@@ -1340,10 +1340,9 @@ input[type="radio"] {
 footer {
   position: relative;
   overflow: hidden;
-  min-height: 20rem;
+  min-height: 23rem;
   display: grid;
   align-content: center;
-  padding: 2.75rem 1.25rem 4.5rem;
   color: var(--muted);
   background: linear-gradient(180deg, #fffdf8, var(--green-100));
   text-align: center;
@@ -1355,8 +1354,8 @@ footer::before {
   z-index: 0;
   inset: 0;
   background-image: url("assets/pngegg.png");
-  background-position: right -2rem bottom -2.5rem;
-  background-size: clamp(23rem, 70vw, 46rem) auto;
+  background-position: center bottom;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   filter: sepia(1) saturate(2.4) hue-rotate(78deg) brightness(0.78);
   mix-blend-mode: multiply;
