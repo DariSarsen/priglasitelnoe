@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="kk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Төлеген мен Даринаның шаңырақ көтеру тойына арналған шақыру."
+    />
+    <meta name="theme-color" content="#0d4a38" />
+    <meta property="og:title" content="Төлеген & Дарина | Үйлену тойы" />
+    <meta property="og:description" content="12 қыркүйек 2026 · Oner&amp;Miras" />
+    <meta property="og:image" content="assets/wedding-couple.png" />
+    <title>Төлеген & Дарина | Үйлену тойы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="is-locked">
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    <audio id="bgMusic" src="assets/audio.mp3" loop preload="auto"></audio>
+
+    <section class="cover" id="cover" aria-label="Шақыруды ашу">
+      <div class="cover__glow" aria-hidden="true"></div>
+      <div class="cover__card">
+        <p class="cover__eyebrow">Тойға шақыру</p>
+        <img class="cover__doves" src="assets/pngegg(5).png" alt="" aria-hidden="true" />
+        <div class="cover__monogram" aria-hidden="true">Т<span>&</span>Д</div>
+        <p class="cover__names">Төлеген & Дарина</p>
+        <button class="cover__button" id="openInvite" type="button">
+          Шақыруды ашу
+        </button>
+      </div>
+    </section>
+
+    <button class="music-toggle" id="musicToggle" type="button" aria-label="Музыканы қосу">
+      <span class="music-toggle__play" aria-hidden="true"></span>
+      <span class="music-toggle__pause" aria-hidden="true"></span>
+    </button>
+
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero__overlay" aria-hidden="true"></div>
+        <img
+          class="hero__frame"
+          src="assets/pngegg(7).png"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="hero__content">
+          <p class="hero__kicker">Үйлену той</p>
+          <img class="ornament" src="assets/divider.png" alt="" aria-hidden="true" />
+          <h1 id="heroTitle"><span>Төлеген</span><i>&</i><span>Дарина</span></h1>
+          <img
+            class="ornament ornament--bottom"
+            src="assets/divider.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <p class="hero__date">12 қыркүйек, 2026</p>
+        </div>
+      </section>
+
+      <section class="invitation section" id="invitation">
+        <div class="section__inner">
+          <img
+            class="section-decor invitation__decor"
+            src="assets/pngegg(2).png"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="invitation__layout">
+            <div class="invitation__blocks">
+              <article class="text-block text-block--invitation">
+                <h2 class="invitation__guest-title reveal">Құрметті қонақтар!</h2>
+                <p class="invitation__audience reveal">
+                  Ағайын-туыс, бауырлар, нағашы-жиен, бөлелер, достар,
+                  әріптестер мен көршілер!
+                </p>
+                <p class="invitation__main reveal">
+                  Сіздерді сүйікті балаларымыз
+                  <strong>Төлеген мен Даринаның</strong> өмір жолдарын тоғыстырып,
+                  қасиетті шаңырақ көтеру қуанышына арналған ақ дастарханымыздың
+                  қадірлі қонағы болуға шын жүрекпен шақырамыз!
+                </p>
+              </article>
+              <article class="invitation-moment">
+                <div class="invitation-moment__photos reveal" aria-hidden="true">
+                  <figure class="invitation-moment__photo invitation-moment__photo--main">
+                    <img src="assets/wedding-hero.png" alt="" />
+                  </figure>
+                  <figure class="invitation-moment__photo invitation-moment__photo--accent">
+                    <img src="assets/wedding-table.png" alt="" />
+                  </figure>
+                </div>
+                <div class="invitation-moment__copy reveal">
+                  <h3>Бақытты сәтті бірге бөлісейік</h3>
+                  <p class="invitation__note">
+                    Бұл күн — екі жастың махаббаты тоғысып, екі әулеттің қуанышы
+                    еселенетін ең қымбат сәттердің бірі.
+                    <strong>Қуанышымызға ортақ болып, ақ тілегіңізді арнаңыз!</strong>
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="details section">
+        <div class="section__inner">
+          <img
+            class="section-decor details__decor"
+            src="assets/pngegg(7).png"
+            alt=""
+            aria-hidden="true"
+          />
+          <header class="section-heading reveal">
+            <p class="section-kicker">Кездесу орны</p>
+          </header>
+          <div class="details__grid">
+            <article class="date-card reveal">
+              <div class="date-card__month">Қыркүйек · 2026</div>
+              <div class="date-card__week">
+                <span>Дс</span><span>Сс</span><span>Ср</span><span>Бс</span>
+                <span>Жм</span><span>Сб</span><span>Жс</span>
+              </div>
+              <div class="date-card__days">
+                <i></i><span>1</span><span>2</span><span>3</span>
+                <span>4</span><span>5</span><span>6</span>
+                <span>7</span><span>8</span><span>9</span><span>10</span>
+                <span>11</span>
+                <strong>
+                  <span class="date-card__selected-number">12</span>
+                  <img
+                    class="date-card__round"
+                    src="assets/round.png"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                </strong>
+                <span>13</span><span>14</span><span>15</span><span>16</span>
+                <span>17</span><span>18</span><span>19</span><span>20</span>
+              </div>
+            </article>
+            <article class="venue-card reveal">
+              <div class="venue-card__content">
+                <p>Мекенжайымыз</p>
+                <h3>Oner&amp;Miras</h3>
+                <span>Ақтау қаласы</span>
+                <a
+                  href="https://2gis.kz/aktau/geo/70000001050818404"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Картадан ашу
+                </a>
+              </div>
+            </article>
+          </div>
+          <div class="countdown countdown--details reveal" aria-label="Тойға дейін қалған уақыт">
+            <h2>Тойға дейін</h2>
+            <div class="timer" id="timer">
+              <div><strong id="days">0</strong><span>күн</span></div>
+              <div><strong id="hours">00</strong><span>сағат</span></div>
+              <div><strong id="minutes">00</strong><span>минут</span></div>
+              <div><strong id="seconds">00</strong><span>секунд</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="banquet-photo section" aria-label="Той дастарханы">
+        <div class="section__inner banquet-photo__layout">
+          <img
+            class="section-decor banquet-photo__decor"
+            src="assets/pngegg.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="banquet-photo__caption reveal">
+            <p class="section-kicker">Ақ дастархан</p>
+            <h2>Қуанышымызға ортақ болыңыз</h2>
+            <span>Сіздің ақ тілегіңіз — біз үшін ең қымбат сый</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="program section">
+        <div class="section__inner">
+          <img
+            class="section-decor program__decor"
+            src="assets/pngegg(4).png"
+            alt=""
+            aria-hidden="true"
+          />
+          <header class="section-heading reveal">
+            <p class="section-kicker">Той бағдарламасы</p>
+            <h2>Бақытқа бастар кеш</h2>
+          </header>
+          <div class="timeline">
+            <article class="timeline__item reveal">
+              <time datetime="2026-09-12T18:00:00+05:00">18:00</time>
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <div>
+                <p>Алғашқы рәсім</p>
+                <h3>Беташар</h3>
+                <span>Жас келінді қайын жұртына таныстыру рәсімі</span>
+              </div>
+            </article>
+            <article class="timeline__item reveal">
+              <time datetime="2026-09-12T19:00:00+05:00">19:00</time>
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <div>
+                <p>Салтанатты кеш</p>
+                <h3>Үлкен той</h3>
+                <span>Ақ тілек, ән мен би, шаттыққа толы мереке</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="hosts section">
+        <div class="hosts__ornament hosts__ornament--left" aria-hidden="true"></div>
+        <div class="hosts__ornament hosts__ornament--right" aria-hidden="true"></div>
+        <div class="section__inner reveal">
+          <img class="hosts__doves" src="assets/pngegg(5).png" alt="" aria-hidden="true" />
+          <p class="section-kicker">Той иесі</p>
+          <h2>Ардақты анамыз</h2>
+          <p class="hosts__name">Гүлнұр</p>
+          <span>Ақ дастархан басында сіздерді асыға күтеміз</span>
+        </div>
+      </section>
+
+      <section class="rsvp section" id="rsvp">
+        <div class="section__inner section__inner--narrow reveal">
+          <p class="section-kicker">Жауап күтеміз</p>
+          <h2>Қуанышымызға ортақ боласыз ба?</h2>
+          <p class="rsvp__lead">
+            Төмендегі қысқа үлгіні толтырып, жауабыңызды WhatsApp арқылы жіберіңіз.
+          </p>
+          <form id="rsvpForm" class="rsvp-form">
+            <label>
+              <span>Аты-жөніңіз</span>
+              <input
+                id="guestName"
+                name="guestName"
+                type="text"
+                autocomplete="name"
+                placeholder="Есіміңіз..."
+                required
+              />
+            </label>
+            <fieldset>
+              <legend>Тойға келесіз бе?</legend>
+              <label>
+                <input type="radio" name="attendance" value="Әрине, келемін" checked />
+                <span>Әрине, келемін</span>
+              </label>
+              <label>
+                <input type="radio" name="attendance" value="Жұбайыммен келемін" />
+                <span>Жұбайыммен келемін</span>
+              </label>
+              <label>
+                <input type="radio" name="attendance" value="Өкінішке орай, келе алмаймын" />
+                <span>Өкінішке орай, келе алмаймын</span>
+              </label>
+            </fieldset>
+            <label class="partner-field" id="partnerField">
+              <span>Жұбайыңыздың аты-жөні</span>
+              <input
+                id="partnerName"
+                name="partnerName"
+                type="text"
+                autocomplete="name"
+                placeholder="Жұбайыңыздың есімі..."
+              />
+            </label>
+            <a
+              class="whatsapp-link"
+              id="whatsappLink"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+              aria-disabled="true"
+            >
+              WhatsApp арқылы жіберу
+            </a>
+            <p class="rsvp-result" id="rsvpResult" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Ақ дастархан басында күтеміз</p>
+      <span>12 · 09 · 2026</span>
+      <small>Шақыру сайтын жасаған: Дарина</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
