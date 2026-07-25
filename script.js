@@ -126,7 +126,7 @@ function updateWhatsappLink() {
     `Сәлеметсіз бе! Менің аты-жөнім: ${guestName}. ` +
     `Төлеген мен Даринаның үйлену тойына жауабым: ${attendance}.${partnerText}`;
 
-  whatsappLink.href = `https://wa.me/77066015891?text=${encodeURIComponent(message)}`;
+  whatsappLink.href = `https://wa.me/77788181981?text=${encodeURIComponent(message)}`;
   whatsappLink.setAttribute("aria-disabled", "false");
   result.textContent = "";
 }

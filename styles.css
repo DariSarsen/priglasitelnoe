@@ -174,7 +174,7 @@ a {
 }
 
 .cover__eyebrow {
-  color: var(--green-700);
+  color: #b58a3b;
 }
 
 .cover__doves {
@@ -187,6 +187,7 @@ a {
 
 .cover__monogram {
   margin: 0 0 0.2rem;
+  color: #b58a3b;
   font-family: var(--serif);
   font-size: clamp(5.4rem, 24vw, 9rem);
   line-height: 0.85;
@@ -194,14 +195,14 @@ a {
 
 .cover__monogram span {
   margin: 0 0.05em;
-  color: var(--gold);
+  color: #c79a43;
   font-family: var(--script);
   font-size: 0.45em;
 }
 
 .cover__names {
   margin: 0 0 2.2rem;
-  color: var(--green-700);
+  color: #b58a3b;
   font-family: var(--serif);
   font-size: 1.25rem;
   letter-spacing: 0.08em;
@@ -231,6 +232,25 @@ a {
 .cover__button:hover,
 .whatsapp-link:hover {
   transform: translateY(-2px);
+}
+
+.cover__button {
+  width: min(15rem, 100%);
+  min-height: 68px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  border-radius: 0;
+  padding: 0 2.6rem;
+  color: #b1842e;
+  background-color: transparent;
+  background-image: url("assets/button.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  line-height: 1;
+  text-align: center;
 }
 
 .music-toggle {
@@ -903,6 +923,11 @@ h2 {
     linear-gradient(145deg, #e3e4d3, #edf6f0);
 }
 
+.details.section {
+  padding-top: clamp(6.5rem, 14vw, 8.5rem);
+  padding-bottom: clamp(6.5rem, 14vw, 8.5rem);
+}
+
 .details__decor {
   display: none;
 }
@@ -1319,7 +1344,6 @@ footer {
   display: grid;
   align-content: center;
   padding: 2.75rem 1.25rem 4.5rem;
-  border-top: 1px solid rgba(198, 165, 104, 0.18);
   color: var(--muted);
   background: linear-gradient(180deg, #fffdf8, var(--green-100));
   text-align: center;
